@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #e53935, #8e0000); /* Red gradient */
+  font-family: 'Times New Roman', Times, serif; /* Times New Roman font */
+  color: white;
+  text-align: center;
+  height: 100vh; /* Ensure full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 800px;
+  padding: 20px;
+  margin-top: 50px; /* Adjust margin-top for space above content */
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
