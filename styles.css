@@ -1,29 +1,38 @@
 body {
-  margin: 0;
-  padding: 0;
-  background: linear-gradient(to bottom, #e53935, #8e0000); /* Red gradient */
-  font-family: 'Times New Roman', Times, serif; /* Times New Roman font */
-  color: white;
-  text-align: center;
-  height: 100vh; /* Ensure full viewport height */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #e53935, #8e0000); 
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    text-align: center;
 }
 
 .container {
-  max-width: 800px;
-  padding: 20px;
-  margin-top: 50px; /* Adjust margin-top for space above content */
-}
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6); 
+    border-radius: 10px; 
 
 h1 {
-  font-size: 36px;
-  margin-bottom: 20px;
+    font-size: 48px; 
+    margin-bottom: 20px;
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
 }
 
 p {
-  font-size: 18px;
-  line-height: 1.6;
+    font-size: 20px; 
+    line-height: 1.8; 
+}
+
+img {
+    display: block;
+    margin: 20px auto; 
+    border: 5px solid white;
+    border-radius: 10px; 
 }
 
